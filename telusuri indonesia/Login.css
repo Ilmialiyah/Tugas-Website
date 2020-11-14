@@ -1,0 +1,71 @@
+body{
+    background-color:#2c5263;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+}
+.form{
+    margin: 15px;
+    font-size: 23px;
+    font-family:"Raleway Thin", sans-serif;
+    color:#2c5263;
+}
+.remember{
+    font-size: smaller;
+    font-family: "Raleway Thin", sans-serif;
+    color: #2c5263;
+}
+.home{
+    font-size: 23px;
+    font-family: cursive;
+    color: whitesmoke;
+    float: right;
+    text-decoration: none;
+
+}
+.logohome{
+    float: right;
+}
+.papan{
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 430px;
+    margin: 6rem auto 8.1rem auto;
+    width: 350px;
+}
+.login{
+    font-family: "Raleway Thin", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+.signin{
+    justify-content: center;
+    background: -webkit-linear-gradient(right, #448bb4, #2c5263);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #2c5263;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 153px;
+    justify-content: center;
+}
+.signinhover {
+    box-shadow: 0px 1px 18px #24c64f;
+}
+.signup{
+    color: #2c5263;
+    font-family: "Raleway", sans-serif;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+}
+

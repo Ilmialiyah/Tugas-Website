@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="Login.css">
+        <!-- <script src="Login.js"></script> -->
         <title> login </title>
         <style></style>
         <body>
@@ -8,25 +9,35 @@
                 <a class="home" href="web 1.html"> Home   </a>
                 <br>
                 <br>
+            <div class="addModal"> 
+                <div class="bgModal">
+                    <div class="tutupModal">
+                        <p>&times;</p>
+                    </div>
+                    <h1> Selamat Datang di Telusuri Indonesia</h1>
+                    <p> Anda berhasil masuk di akun Anda pada website Telusuri Indonesia</p>
+                    <p> Selamat menjelajahi Indonesia di Telusuri Indonesia</p>
+                </div>
+            </div>      
             <div class="papan">
                 <legend style="text-align: center;"></legend>
                     <form class="form">
                         <h2 class="login" > LOGIN </h2>
                         <p>
                             <label> Username : </label>
-                            <input type="text" name="username" placeholder="Username..." style="text-align: left;"/>
+                            <input type="text" id="username" name="username" placeholder="Username..." style="text-align: left;"/>
                         </p>
                         <p>
                             <label> Password : </label>
-                            <input type="password" name="password" placeholder="password..." style="text-align: left;"/>
+                            <input type="password" id="password" name="password" placeholder="password..." style="text-align: left;"/>
                         </p>
                         <p>
                             <label><input class="remember" type="checkbox" name="remember" value="remember" style="text-align: center;"/> Remember Me</label>
                         </p>
                         <p>
-                            <a href="../web 1/web 2.html"><input class="signin" type="button" name="submit" value="Login" style="text-align: center;"></a><br>
-                            <a href="create akun.html" class="signup"> <br>Belum punya akun? </a>
-                        </form>
+                            <!-- <a href="web 2.html"> --><input class="signin" type="button" name="submit" value="Login" style="text-align: center;"></a><br>
+                            <a href="create akun.html" class="signup" type="button"> <br> >> Belum Punya Akun?</a>
+                            <script src="Login.js"></script>
                         </p>
                     </form>
                 </legend>

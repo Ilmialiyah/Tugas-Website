@@ -1,48 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
 
-div{
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-    @media only screen and (min-width: 600px) {
-    /* For tablets: */
-        .col-m-1 {width: 8.33%;}
-        .col-m-2 {width: 16.66%;}
-        .col-m-3 {width: 25%;}
-        .col-m-4 {width: 33.33%;}
-        .col-m-5 {width: 41.66%;}
-        .col-m-6 {width: 50%;}
-        .col-m-7 {width: 58.33%;}
-        .col-m-8 {width: 66.66%;}
-        .col-m-9 {width: 75%;}
-        .col-m-10 {width: 83.33%;}
-        .col-m-11 {width: 91.66%;}
-        .col-m-12 {width: 100%;}
-    }
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
-}
 body{
     background-image: url(bgweb.png);
     background-size: 100% 50%;
     background-repeat: no-repeat;
     background-color: #2C5263;
-    
-
 }
 p{
     font-size: 100px;
@@ -155,3 +117,123 @@ p{
     color: whitesmoke;
     text-decoration: none;
 }
+@media only screen and (min-width : 450px){
+    body{
+        background-image: url(bgweb.png);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-color: #2C5263;
+    }
+    p{
+        font-size: 100px;
+        color: black;
+    }
+    h3{
+        color: black;
+    }
+    .judul{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+    }
+    .deskripsi{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .logout{
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        right: 175px;
+        margin: 5px;
+        text-decoration: none;
+        position: absolute;
+    }
+    .pojokkanan{
+        right: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        font-size: 25px;
+        margin: 5px;
+        text-decoration: none;
+        position: absolute;
+    }
+    form.form-check{
+        align-content: center;
+        display:inline-block; 
+        position:relative; 
+        width:50px; 
+        height:50px;}
+    
+    p{
+        font-size: 20px;
+        color: black;
+    }
+    .menu1{
+        font-family: 'Sofia', cursive;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        position: absolute;
+        left: 35px;
+        font-weight: lighter;
+    }
+    .menu2{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        position: absolute;
+        left: 250px;
+        font-family: 'Sofia', cursive;
+        font-weight: lighter;
+    }
+    .menu3{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        position: absolute;
+        right: 220px;
+        font-family: 'Sofia', cursive;
+        font-weight: lighter;
+    }   
+    .menu4{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        position: absolute;
+        right: 35px;
+        font-family: 'Sofia', cursive;
+        font-weight: lighter;
+        
+    }
+    .bawah{
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+        position: center;
+        text-shadow: 3px 2px 1px red;
+        font-weight: lighter;
+    }
+    .footer{
+        bottom: 25px;
+    }
+    .instagram{
+        font-size: 20px;
+        font-family: cursive;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .youtube{
+        font-size:20px ;
+        font-family: cursive;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .twitter{
+        font-size: 20px;
+        font-family: cursive;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+}
+

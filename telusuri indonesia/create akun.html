@@ -5,32 +5,42 @@
         <style></style>
         <body>
             <img class="logohome" src="homey.png" width="33px" height="30px">
-                <a class="home" href="web 1.html"> Home   </a>
+                <a class="home" href="index.html"> Home   </a>
                 <br>
                 <br>
+            <div class="addModal"> 
+                <div class="bgModal">
+                    <div class="tutupModal">
+                        <p>&times;</p>
+                    </div>
+                    <h1> Selamat Datang di Telusuri Indonesia</h1>
+                    <p> Anda berhasil membuat akun Anda pada website Telusuri Indonesia</p>
+                    <p> Selamat menjelajahi Indonesia di Telusuri Indonesia</p>
+                </div>
+            </div>      
             <div class="papan">
                 <legend style="text-align: center;"></legend>
                     <form class="form">
                         <h2 class="daftar" > DAFTAR </h2>
                         <p>
                             <label> Nama Lengkap : </label>
-                            <input type="text" name="Nama Lengkap" placeholder="nama lengkap ... " style="text-align: left;"/>
+                            <input id="namalengkap" type="text" name="Nama Lengkap" placeholder="isi dg 'nama lengkap' " style="text-align: left;"/>
                         </p>
                         <p>
                             <label> Email : </label>
-                            <input type="text" name="email" placeholder="email..." style="text-align: left;"/>
+                            <input id="email" type="text" name="email" placeholder="isi dg 'email@gmail.com' " style="text-align: left;"/>
                         </p>
                         <p>
                             <label> Username : </label>
-                            <input type="text" name="username" placeholder="Username..." style="text-align: left;"/>
+                            <input id="username" type="text" name="username" placeholder="isi dg 'username' " style="text-align: left;"/>
                         </p>
                         <p>
                             <label> Password : </label>
-                            <input type="password" name="password" placeholder="password..." style="text-align: left;"/>
+                            <input id="password" type="password" name="password" placeholder="isi dengan 'password' " style="text-align: left;"/>
                         </p>
                         <p>
-                            <a href="../web 1/web 2.html"><input class="buat" type="button" name="submit" value="Buat Akun" style="text-align: center;"></a><br>
-                            
+                            <a href="web 2.html"><input class="buat" type="button" name="submit" value="Buat Akun" style="text-align: center;"></a><br>
+                            <script src="create akun.js"></script>
                         </form>
                         </p>
                     </form>

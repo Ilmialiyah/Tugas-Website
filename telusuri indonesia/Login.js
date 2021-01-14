@@ -21,6 +21,7 @@ function showModal() {
 function hideModal() {
     modal.style.display = "none";
     bg.style.display = "none";
+    window.location.href = "web 2.html"
 };
 
 function login() {

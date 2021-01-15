@@ -25,13 +25,13 @@ function showModal() {
 function hideModal() {
     modal.style.display = "none";
     bg.style.display = "none";
-    window.location.href = "web 2.html"
+    window.location.href = "web 2.html";
 };
 function create() {
     if (inputanNama.value == 'nama lengkap' && inputanEmail.value == 'email@gmail.com' && inputanUsername.value == 'username' && inputanPassword.value == 'password'){
         showModal();
     } else {
-        modalHeading.innerText = `Maaf, silahkan coba daftarkan akun Anda lagi`;
+        modalHeading.innerText = `Maaf, silahkan coba daftarkan akun Anda lagi dengan me-refresh halaman`;
         showModal();
     }
 };

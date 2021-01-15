@@ -19,16 +19,16 @@ function showModal() {
 };
 
 function hideModal() {
-    modal.style.display = "none";
-    bg.style.display = "none";
-    window.location.href = "web 2.html"
+    modal.style.display = "flex";
+    bg.style.display = "flelx";
+    window.location.href = "web 2.html";
 };
 
 function login() {
     if (inputanUsername.value == 'username' && inputanPassword.value == 'password'){
         showModal();
     } else {
-        modalHeading.innerText = `Maaf username ${inputanUsername.value} tidak terdaftar`;
+        modalHeading.innerText = `Maaf username ${inputanUsername.value} tidak terdaftar, silahkan refresh halaman`;
         showModal();
     }
 };
